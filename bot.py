@@ -23,7 +23,7 @@ dp = Dispatcher(bot)
 
 proxy = {
     "http": "http://wheresell:JEyxU0oI5Sid7bnj@proxy.packetstream.io:31112/",
-    "https": "http://wheresell:JEyxU0oI5Sid7bnj@proxy.packetstream.io:31112/",
+    "https": "https://wheresell:JEyxU0oI5Sid7bnj@proxy.packetstream.io:31111/",
 } 
 
 session = requests.session()
