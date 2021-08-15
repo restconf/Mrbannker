@@ -20,16 +20,15 @@ bot = Bot(token=TOKEN, parse_mode=types.ParseMode.HTML)
 dp = Dispatcher(bot)
 
 ###USE YOUR ROTATING PROXY### NEED HQ PROXIES ELSE WONT WORK UPDATE THIS FILED
-"""
+
 proxy = {
     "http": "http://deplaobr-rotate:ocjxpp5iucgk@p.webshare.io:80/",
     "https": "http://deplaobr-rotate:ocjxpp5iucgk@p.webshare.io:80/",
 } 
-"""
+
 session = requests.session()
-
-# session.proxies = proxy #UNCOMMENT IT AFTER PROXIES
-
+#session.proxies = proxy #UNCOMMENT IT AFTER PROXIES
+proxy = session.proxy
 #random str GEN FOR EMAIL
 N = 10
 rnd = ''.join(random.choices(string.ascii_lowercase +
