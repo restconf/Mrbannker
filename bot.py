@@ -27,8 +27,8 @@ proxy = {
 } 
 
 session = requests.session()
-#session.proxies = proxy #UNCOMMENT IT AFTER PROXIES
-proxy = session.proxy
+session.proxy = proxy #UNCOMMENT IT AFTER PROXIES
+#proxy = session.proxy
 #random str GEN FOR EMAIL
 N = 10
 rnd = ''.join(random.choices(string.ascii_lowercase +
